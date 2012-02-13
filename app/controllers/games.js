@@ -41,6 +41,7 @@ exports.boot = function(app, i18n){
 		);
 	});
 
+
 	app.get('/games/mp', function(req, res){
 		var response = new ResponseHelper(res);
 		var answer = response.generateBody();
